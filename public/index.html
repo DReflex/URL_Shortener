@@ -1,0 +1,53 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Url Shortener</title>
+    <meta name="description" content="A cool thing made with Gomix">
+    <link id="favicon" rel="icon" href="https://gomix.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+<header>
+<div class ="title">freeCodeCamp <br>
+Url Shortener Microservice</div>
+
+</header>
+
+<div class="txt">
+   <h2>
+    You can pass a URL as a parameter and You will receive a shortened URL in the JSON response. <br>
+    When you visit that shortened URL, it will redirect you to your original link.
+   </h2>
+</div>
+<div class="box">
+<h3>Example ussage: </h3><br>
+<a href="https://url-shorter.gomix.me/new/https://google.ba">https://url-shorter.gomix.me/new/https://google.ba</a>
+<br>
+<h3>Example output: </h3>
+<span class="brackets">{</span><br>
+  <span class="name">"original_url" : <span class="link">"<a target="blank" class="link" href="https://google.ba">https://google.ba</a>"</span></span><br>
+<span class="name">"short_url" : <span class="link">"<a target="blank" class="link" href="https://url-shorter.gomix.me//eEva">https://url-shorter.gomix.me//eEva</a>"</span></span><br>
+<span class="brackets">}</span><br>
+</div>
+<div class="contact">
+<h4 class = "txt">Made By <a href="https://github.com/DReflex">Reflex</a></h4>
+</div>
+
+</body>
+
+
+
+  </html>
+

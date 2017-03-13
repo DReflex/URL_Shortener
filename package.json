@@ -1,0 +1,32 @@
+{
+	"//1": "describes your app and its dependencies",
+	"//2": "https://docs.npmjs.com/files/package.json",
+	"//3": "updating this file will download and update your packages",
+	"name": "my-gomix-app",
+	"version": "0.0.1",
+	"description": "What am I about?",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.15.2",
+		"valid-url": "^1.0.9",
+		"mongodb": "^2.2.24",
+		"mongoose": "^4.8.6",
+		"hashids": "^1.1.1",
+		"mongoose-auto-increment": "^5.0.1"
+	},
+	"engines": {
+		"node": "6.9.x"
+	},
+	"repository": {
+		"url": "https://gomix.com/#!/project/welcome-project"
+	},
+	"license": "MIT",
+	"keywords": [
+		"node",
+		"gomix",
+		"express"
+	]
+}
